@@ -10,14 +10,12 @@ export default function DentalSmilePortHome() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <svg className="w-6 h-6" viewBox="0 0 32 32" fill="currentColor">
-          <path d="M19.11..." />
-        </svg>
+      <span className="text-xl">💬</span>
       </a>
 
       {/* Hero Section */}
       <section className="bg-blue-800 text-white py-20 px-4 text-center">
-        <img src="/logo.png" alt="Dental SmilePort Logo" className="mx-auto mb-6 w-20" />
+        {/* <img src="/logo.png" ... /> */}
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
           Welcome to Dental SmilePort
         </h1>
