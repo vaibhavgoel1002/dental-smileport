@@ -3,5 +3,6 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/', // Very important: ensures assets load correctly from root on Vercel
+  root: './src',  // Ensure Vite is correctly pointed to the src directory if needed
+  base: '/',      // Correct for Vercel deployment
 });
